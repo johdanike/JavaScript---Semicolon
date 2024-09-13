@@ -5,6 +5,7 @@ const {isPrime } = require("./IsPrime.js");
 const {duplicate} = require("./FindFirstDuplicate.js");
 const {reverseArray} = require("./ReverseArray.js");
 const {factorial} = require("./Factorial.js");
+const {isPalindrome} = require("./IsPalindrome.js");
 
 
 let numberArray = [2,4,1,78,45,34,90,4,6,2,8];
@@ -14,8 +15,6 @@ test("Sum even numbers in array", ()=>{
 	let expected = 228;
 	expect(result).toEqual(expected);
 })
-
-
 
 test("Find Maximum number in an array", ()=>{
 	let result = findMax(numberArray);
@@ -52,4 +51,10 @@ test("Factorial Calculator", ()=>{
 	let expected = 120
 	expect(result).toEqual(expected);
 		
+})
+
+test("IsPalindrome?", ()=>{
+	let result = isPalindrome("racecar");
+	let expected = true;
+	expect(result).toBe(expected);
 })
