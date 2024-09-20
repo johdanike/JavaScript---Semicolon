@@ -6,7 +6,7 @@ function factorial(number){
 	return factorial;
 }
 
-let value = factorial(5);
+let value = factorial(2);
 console.log(value);
 
 module.exports = {factorial};
