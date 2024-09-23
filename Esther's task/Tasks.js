@@ -11,7 +11,6 @@ function dividedByTenAndAddToOriginal(value){
     return expected;
 }
 
-// let val = dividedByTenAndAddToOriginal(25);
-// console.log(val);
+
 
 module.exports = {sumVars, dividedByTenAndAddToOriginal};
