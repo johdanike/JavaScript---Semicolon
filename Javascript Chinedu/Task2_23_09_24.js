@@ -32,14 +32,14 @@ function squareOfEachNumber(array){
 function bookRatio(array){
     const object = {};
     let books = ["Things fall apart", "Dream big", "Think and grow rich", "Why men marry bitches"];
-    // for(let obj of array){
-    //     for (let index of books){
-    //         object[obj] = index;
-    //     }
-    // }
-    for(let index in array){
-        [index] = books[index];
+    for(let obj of array){
+        for (let index of books){
+            object[obj] = index;
+        }
     }
+    // for(let index in array){
+    //     [index] = books[index];
+    // }
     return object;
 }
 
