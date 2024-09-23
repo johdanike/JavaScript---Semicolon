@@ -1,5 +1,5 @@
 const {countOccurence, solve} = require('./ObjectsTasks_23_09_24.js');
-const {TestScores, scores, examGradeIncrementUsingMaps, squareOfEachNumber, bookRatio, expensesMonitor} =require("./Task2_23_09_24")
+const {TestScores, scores, examGradeIncrementUsingMaps, squareOfEachNumber, bookRatio, expensesMonitor, classesOffered} =require("./Task2_23_09_24")
 
 test("First function", async () => {
     let result = countOccurence([1,1,2,3,2]);
@@ -50,6 +50,12 @@ test("Total Amount Spent", ()=>{
     let result = expensesMonitor({"groceries": 150, "dinning set": 100, "transportation": 50, "entertainment": 80
     });
     let expected = 380;
+    expect(result).toEqual(expected);
+})
+
+test("Class timing", () => {
+    let result = classesOffered(["9:00am", "11:00am", "1:00pm", "3:00pm", "5:00pm"])
+    let expected = ["1:00pm", "3:00pm","5:00pm"];
     expect(result).toEqual(expected);
 })
 

@@ -32,10 +32,13 @@ function squareOfEachNumber(array){
 function bookRatio(array){
     const object = {};
     let books = ["Things fall apart", "Dream big", "Think and grow rich", "Why men marry bitches"];
-    for(let obj of array){
-        for (let index of books){
-            object[obj] = index;
-        }
+    // for(let obj of array){
+    //     for (let index of books){
+    //         object[obj] = index;
+    //     }
+    // }
+    for(let index in array){
+        [index] = books[index];
     }
     return object;
 }
@@ -60,10 +63,10 @@ function expensesMonitor(array){
    return timeSpent;
 }
 
-// let val = bookRatio(["Emily", "Jack", "Sophia", "Daniel"]);
-// console.log(val);
-
-let val = expensesMonitor({"groceries": 150, "dinning set": 100, "transportation": 50, "entertainment": 80
-});
+let val = bookRatio(["Emily", "Jack", "Sophia", "Daniel"]);
 console.log(val);
-module.exports = {TestScores, scores, examGradeIncrementUsingMaps, squareOfEachNumber, bookRatio, expensesMonitor};
+
+// let val = expensesMonitor({"groceries": 150, "dinning set": 100, "transportation": 50, "entertainment": 80
+// });
+// console.log(val);
+module.exports = {TestScores, scores, examGradeIncrementUsingMaps, squareOfEachNumber, bookRatio, expensesMonitor, classesOffered};
