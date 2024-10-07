@@ -1,14 +1,15 @@
+
 function twoLargest(array){
     let newArray = [];
-    for(let index=0;index<array.length;index++){
-        let largest = 0;
-        let secondLargest = 0
-        if(largest>array[index]){
-            largest = array[index];
-            secondLargest = array[index+1];
-            console.log(largest);
-            newArray.push(largest);
+    let firstLargest =  0;
+    let secondLargest = 0;
+
+    for(let i = 0; i < array.length; i++){
+        if(firstLargest > array[i]){
+            firstLargest = array[i];
         }
+        newArray.push(firstLargest);
+        newArray.push(secondLargest);
     }
     return newArray;
 }

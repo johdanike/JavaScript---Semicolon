@@ -71,3 +71,4 @@ test('test for name attribute', ()=>{
     let firstPerson = new Person("Miracle", "Female");
     expect(firstPerson.name).toEqual("Miracle");
 })
+
