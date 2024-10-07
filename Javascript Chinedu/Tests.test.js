@@ -1,5 +1,7 @@
-const {countOccurence, solve} = require('./ObjectsTasks_23_09_24.js');
-const {TestScores, scores, examGradeIncrementUsingMaps, squareOfEachNumber, bookRatio, expensesMonitor, classesOffered} =require("./Task2_23_09_24")
+const {countOccurence, solve} = require('./firedrill/ObjectsTasks_23_09_24.js');
+const {TestScores, scores, examGradeIncrementUsingMaps, squareOfEachNumber, bookRatio, expensesMonitor, classesOffered} =require("./firedrill/Task2_23_09_24")
+const {plusOne, addToList} = require("./firedrill/30.09.24_Task.js");
+const Person = require("./firedrill/object.js");
 
 test("First function", async () => {
     let result = countOccurence([1,1,2,3,2]);
@@ -59,3 +61,13 @@ test("Class timing", () => {
     expect(result).toEqual(expected);
 })
 
+test("Add One to number", ()=>{
+    let result = addToList(plusOne([2,3,-6]));
+    let expected = [2,3,7];
+    expect(result).toEqual(expected);
+})
+
+test('test for name attribute', ()=>{
+    let firstPerson = new Person("Miracle", "Female");
+    expect(firstPerson.name).toEqual("Miracle");
+})

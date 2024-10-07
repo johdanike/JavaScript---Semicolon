@@ -35,10 +35,11 @@ function bookRatio(array){
     for(let obj of array){
         for (let index of books){
             object[obj] = index;
+            index+1;
         }
     }
     // for(let index in array){
-    //     [index] = books[index];
+    //     object[index] = books[index];
     // }
     return object;
 }
