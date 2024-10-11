@@ -1,19 +1,27 @@
 
 function twoLargest(array){
     let newArray = [];
-    let firstLargest =  0;
-    let secondLargest = 0;
 
-    for(let i = 0; i < array.length; i++){
-        if(firstLargest > array[i]){
-            firstLargest = array[i];
+    for(let index = 0; index < array.length; index++){
+        for(let loop = index+1; loop < array.length; loop++){
+            if(array[index] > array[loop]){
+                array[loop] ^= array[index];
+                array[index] ^= array[loop];
+                array[loop] ^= array[index];
+            }
         }
-        newArray.push(firstLargest);
-        newArray.push(secondLargest);
+    }
+    console.log(array);
+    for(let index = array.length-1; index > 2; index--){
+        newArray.push(array[index]);
     }
     return newArray;
 }
 
 let input = twoLargest([2,3,5,1,7]);
 console.log(input);
+
+
+let input1 = twoLargest([1,9,3,4,8,10,11,78,100]);
+console.log(input1);
 
