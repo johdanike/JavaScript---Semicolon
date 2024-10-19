@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.inner-wrapper{
+    width: 85vw;
+    border-left: 1px solid #C9C9C9;
+    border-right: 1px solid #C9C9C9;
+    margin: auto;
+}
+.wrapper{
+    width: 80vw;
+    margin: auto;
+}
+.mainwrapper{
+    background-color: #F5F5F5;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    /* width: 300px; */
+}
+ul a{
+    text-decoration: none;
+    color: black;   
+}
+.wider-nav{
+    /* border-bottom: 1px solid #C9C9C9; */
+    width: 85vw;
+    margin: auto;
+}
+
+.navbar{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+
+}
+.menu{
+    /* padding-right: 20px; */
+    /* Width: 1000px; */
+    /* Gap: 47px; */
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+
+.menu ul{
+    gap: 42px;
+    opacity: 0px;
+    font-family: Cairo;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28.11px;
+    text-align: left;
+
+}
+
+.sign-up{
+    font-family: Cairo;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29.98px;
+    text-align: left;
+    width: 125px;
+    height: 44px;
+    text-align: center;
+    border: 1px solid #8E8E8E;
+    background-color: transparent;
+}
+.navContentMid{
+    width: 130px;
+    height: 44px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.logo_sec{
+    display: flex;
+    gap: 100px;
+
+}
+
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+}
+
+.hero-write-up{
+    padding-top: 5%;
+    font-family: Cairo;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 93px;
+    text-align: left;
+    width: 50%;
+}
+.heroWriteUp{
+    width: 80%;
+}
+
+#apparel{
+    padding-top: 100px;
+}
+.mid{
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+.wehelp{
+    width: 556px;
+    height: 186px;
+    top: 256px;
+    left: 94px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Cairo;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 93px;
+    text-align: left;
+}
+.help{
+    color: #2995E2;
+}
+.mid{
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: left;
+}
+.get-started-btn {
+    position: absolute;
+    border: 2px solid #2995E2;
+    /* text-align: center;
+    text-align: left; */
+    width: 126px;
+    height: 45px;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: -20px;
+    margin-left: 5px;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    /* width: 100px; */
+    /* text-align: center; */
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    /* text-align: left; */
+    width: 129px; 
+    height: 36px;
+    /* text-align: center; */
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-right: 12px;
+    padding-right: 5px;
+}
+
+.herobtn{
+    padding: 10px;
+    width: 125px;
+    height: 44px;
+    border: none;
+    background: #2995E2;
+    color: #fff;
+}
+
+.herobtn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.herofooter{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.watch-our-stories{
+    display: flex;
+    height: 36px;
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: left;
+    gap: 15px;
+    width: 150px;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    Width: 577px;
+    Height: 467px;
+}
+.outer-p{
+    width: 800px;
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: center;
+    margin-bottom: -90px;
+}
+
+.about-us{
+    margin-top: 50px;
+}
+.about-us-header{
+    justify-content: center;
+    display: grid;
+}
+.about1{
+    display: flex;
+    padding-left: 60px;
+    gap: 20px;
+}
+
+.about1 > h2{
+    font-family: Cairo;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 82.46px;
+    text-align: center;
+}
+
+.about-img-2{
+    height: 80px;
+    margin-top: 60px;
+}
+
+.about-us-img{
+    justify-content: right;
+    display: flex;
+    padding-right: 140px;
+}
+.services{
+    width: 343px;
+    height: 111px;
+    margin-top: 150px;
+}
+.our-services{
+    font-family: Cairo;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 74.96px;
+    text-align: left;
+    color: #2995E2;
+}
+.services-category{
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: left;
+}
+.cat-1{
+    margin-top: 75px;
+}
+.guardianship{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+.guardianship-header{
+    width: 50%;
+    padding-top: 100px;
+}
+.guardianship-img{
+    width: 50%;
+    width: 722px;
+    height: 426px;
+    top: 1188px;
+    left: 627px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.guardianship-title{
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52.47px;
+    text-align: left;
+    /* width: 525px; */
+    height: 52px;
+    position: static;
+}
+.guardianship-body{
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: left;
+    width: 493px;
+    height: 144px;
+    color: #4F4F4F;
+    gap: 19px;
+}
+
+/* .guardianship-btn{
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 125px;
+    background: #2995E2;
+    font-family: Cairo;
+    font-size: 19.45px;
+    font-weight: 600;
+} */
+.cat-2{
+    margin-top: 75px;
+}
+.helping{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+.helping-header{
+    width: 50%;
+    padding-top: 100px;
+}
+.helping-img{
+    width: 50%;
+}
+.helping-title{
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52.47px;
+    text-align: left;
+    /* width: 525px; */
+    height: 52px;
+}
+.helping-body{
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: left;
+    width: 493px;
+    height: 144px;
+    color: #4F4F4F;
+    gap: 19px;
+}
+
+.helping-btn{
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 125px;
+    background: #2995E2;
+    font-family: Cairo;
+    font-size: 19.45px;
+    font-weight: 600;
+}
+.cat-3{
+    margin-top: 75px;
+}
+.buying-food{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+.buying-food-header{
+    width: 50%;
+    padding-top: 100px;
+}
+.buying-food-img{
+    width: 50%;
+}
+.buying-food-title{
+    font-family: Cairo;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 52.47px;
+    text-align: left;
+    /* width: 525px; */
+    height: 52px;
+}
+.buying-food-body{
+    font-family: Cairo;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 35.61px;
+    text-align: left;
+    width: 493px;
+    height: 144px;
+    color: #4F4F4F;
+    gap: 19px;
+}
+
+.buying-food-btn{
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 125px;
+    background: #2995E2;
+    font-family: Cairo;
+    font-size: 19.45px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 323px;
+    /* top: 2790px;
+    left: 146px; */
+    border: 12px 0px 0px 0px;
+    flex-direction: row;
+    border: 12px solid #fff; 
+    background-color: #2995E2;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 50px;
+    margin-top: 120px;
+}
+.container-img>{
+    width: 30%;
+    background-color: transparent;
+    background: transparent;
+}
+.container-img > img{
+    width: 100%;
+    height: 300px;
+    top: 2847px;
+    left: 234px;
+    gap: 0px;
+    opacity: 0px;
+}
+.container-write-up{
+    background: transparent;
+}
+.container-write-up>h4{
+    font-family: Cairo;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 65.59px;
+    text-align: left;
+    width: 286px;
+    height: 132px;
+    background: transparent;
+    color: #fff
+}
+.form{
+    width: 80%;
+}
+.main-form{
+    display: flex;
+}
+.free-consultation{
+    gap: 11px;
+}
